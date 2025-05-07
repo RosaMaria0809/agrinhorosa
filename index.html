@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Conexão Campo e Cidade - Agrinho 2025</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f1f1e6;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: linear-gradient(to right, #4CAF50, #8BC34A);
+      color: white;
+      padding: 3em 1em;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      margin-top: 0.5em;
+      font-style: italic;
+    }
+
+    section {
+      padding: 2em;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #4CAF50;
+      margin-bottom: 0.5em;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1em;
+      justify-content: space-around;
+      margin-top: 1em;
+    }
+
+    .card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+      padding: 1em;
+      flex: 1 1 250px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    /* Galeria */
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 1em;
+    }
+
+    .galeria img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .galeria img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: 2em;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8em;
+      }
+
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Festejando a Conexão do Campo e Cidade</h1>
+    <p>Unidos pela cultura, alimentação e futuro sustentável</p>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre o Projeto Agrinho</h2>
+    <p>O projeto Agrinho tem como objetivo estimular o pensamento crítico e a conscientização sobre temas sociais importantes. Neste ano, celebramos a conexão entre o campo e a cidade, mostrando como esses dois mundos se complementam em harmonia.</p>
+  </section>
+
+  <section id="conexoes">
+    <h2>Como Estamos Conectados</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>🌾 Alimentação</h3>
+        <p>Grande parte dos alimentos que consumimos na cidade vem do trabalho das pessoas do campo.</p>
+      </div>
+      <div class="card">
+        <h3>💻 Tecnologia</h3>
+        <p>A tecnologia conecta agricultores e consumidores, melhora a produção e aproxima realidades.</p>
+      </div>
+      <div class="card">
+        <h3>🎉 Cultura</h3>
+        <p>Festas típicas, tradições e músicas mostram a união de costumes do campo e da cidade.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="curiosidades">
+    <h2>Curiosidades</h2>
+    <ul>
+      <li>🛒 Mais de 70% dos alimentos no supermercado vêm da agricultura familiar.</li>
+      <li>🌍 O campo é responsável por alimentar não só a cidade, mas o mundo todo!</li>
+      <li>🤝 Muitos projetos urbanos utilizam práticas do campo, como hortas comunitárias.</li>
+    </ul>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria: Campo e Cidade</h2>
+    <div class="galeria">
+      <img src="https://images.unsplash.com/photo-1605810230434-7631be73e067" alt="Campo">
+      <img src="https://images.unsplash.com/photo-1589207130093-d6440bde0f0f" alt="Cidade">
+      <img src="https://images.unsplash.com/photo-1581881067315-9832951abdc7" alt="Conexão campo e cidade">
+      <img src="https://images.unsplash.com/photo-1502904550040-7534597429ae" alt="Tratores no campo">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Rosa • Todos os direitos reservados • Projeto Escolar Agrinho</p>
+  </footer>
+
+</body>
+</html>
